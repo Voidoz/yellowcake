@@ -10,6 +10,7 @@ import { ContactPageTemplate } from '../templates/ContactPage'
 import { DefaultPageTemplate } from '../templates/DefaultPage'
 import { BlogIndexTemplate } from '../templates/BlogIndex'
 import { SinglePostTemplate } from '../templates/SinglePost'
+import { OscarsPageTemplate } from '../templates/SinglePost'
 
 CMS.registerMediaLibrary(uploadcare)
 
@@ -41,4 +42,7 @@ CMS.registerPreviewTemplate('blog-page', ({ entry }) => (
 ))
 CMS.registerPreviewTemplate('posts', ({ entry }) => (
   <SinglePostTemplate {...entry.toJS().data} />
+))
+CMS.registerPreviewTemplate('oscars-page', ({ entry }) => (
+  <OscarsPageTemplate {...entry.toJS().data} />
 ))
