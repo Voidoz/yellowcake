@@ -1,9 +1,9 @@
 ---
 template: SinglePost
-title: Post Two
+title: Lashes
 status: Published
 date: '2018-03-28'
-featuredImage: 'https://ucarecdn.com/57002902-e8b3-4315-9995-beb637b29128/'
+featuredImage: 'https://ucarecdn.com/f9400687-c060-4279-b79b-0ccaa5337009/'
 excerpt: This is an excerpt of Post Two
 categories:
   - category: Updates
