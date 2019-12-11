@@ -6,7 +6,7 @@ date: '2018-03-28'
 featuredImage: 'https://ucarecdn.com/f9400687-c060-4279-b79b-0ccaa5337009/'
 excerpt: This is an excerpt of Post Two
 categories:
-  - category: Updates
+  - category: Our Work
 meta:
   description: test meta description
   title: test meta title
